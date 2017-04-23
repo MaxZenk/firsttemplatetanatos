@@ -180,10 +180,9 @@ input {
 	font-size: 100%;
 }
 .our-works .bg-image {
-	width: 360px;
-	height: 360px;
 	border-radius: 10px;
 	z-index: 2;
+	background: #f7600e;
 }
 .our-works img {
 	z-index: 1;
