@@ -179,6 +179,12 @@ input {
 	padding: 15px 0 100px;
 	font-size: 100%;
 }
+.our-works .bg-image {
+	width: 360px;
+	height: 360px;
+	border-radius: 10px;
+	z-index: 2;
+}
 .our-works img {
 	z-index: 1;
 }
