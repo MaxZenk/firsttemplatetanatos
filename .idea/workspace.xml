@@ -74,8 +74,8 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+                <state relative-caret-position="125">
+                  <caret line="114" column="20" lean-forward="true" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -113,6 +113,7 @@
       <find>font-si</find>
       <find>margin-l</find>
       <find>slider</find>
+      <find>cir</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -700,7 +701,7 @@
       <workItem from="1492806983456" duration="8836000" />
       <workItem from="1492869186861" duration="25621000" />
       <workItem from="1492907648305" duration="1840000" />
-      <workItem from="1492950742065" duration="1586000" />
+      <workItem from="1492950742065" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1492908110982</created>
@@ -737,11 +738,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492951945282</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add height header">
+      <created>1492952357772</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1492952357772</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43143000" />
+    <option name="totallyTimeSpent" value="43360000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -829,7 +837,8 @@
     <MESSAGE value="add new row and edit code" />
     <MESSAGE value="add new row slider" />
     <MESSAGE value="add ne rows" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ne rows" />
+    <MESSAGE value="add height header" />
+    <option name="LAST_COMMIT_MESSAGE" value="add height header" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1142,8 +1151,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="125">
+          <caret line="114" column="20" lean-forward="true" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
           <folding />
         </state>
       </provider>
