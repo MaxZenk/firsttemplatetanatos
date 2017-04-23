@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4f7beb86-cc2c-457d-94e3-66b9e3fdf410" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,8 +74,8 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="173">
-                  <caret line="95" column="7" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="7" />
+                <state relative-caret-position="85">
+                  <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -127,8 +128,8 @@
       <list>
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/css/skeleton.css" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
       </list>
     </option>
   </component>
@@ -699,7 +700,7 @@
       <workItem from="1492806983456" duration="8836000" />
       <workItem from="1492869186861" duration="25621000" />
       <workItem from="1492907648305" duration="1840000" />
-      <workItem from="1492950742065" duration="1181000" />
+      <workItem from="1492950742065" duration="1586000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1492908110982</created>
@@ -729,11 +730,18 @@
       <option name="project" value="LOCAL" />
       <updated>1492951434259</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add ne rows">
+      <created>1492951945282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1492951945282</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42738000" />
+    <option name="totallyTimeSpent" value="43143000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,7 +828,8 @@
     <MESSAGE value="delete twelve columns" />
     <MESSAGE value="add new row and edit code" />
     <MESSAGE value="add new row slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="add new row slider" />
+    <MESSAGE value="add ne rows" />
+    <option name="LAST_COMMIT_MESSAGE" value="add ne rows" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1114,14 +1123,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="95" column="7" lean-forward="false" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
@@ -1136,6 +1137,14 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
