@@ -2,7 +2,8 @@
 /*
 	Open Sans, 300, 300 italic, 400, 400 italic, 600, 600 italic, 700, 700 italic, 800, 800 italic
 */
-*, *:before, *:after{
+*, *:before,
+*:after {
 	box-sizing: border-box;
 }
 html {
@@ -23,7 +24,7 @@ input {
 }
 .header {
 	background: url(../images/header-background.png) no-repeat;
-	height: 750px;
+	height: 800px;
 	padding-top: 50px;
 	background-size: cover;
 }
@@ -71,7 +72,8 @@ input {
 	text-transform: uppercase;
 	text-align: center;
 }
-.main-logo span, .title span  {
+.main-logo span,
+.title span {
 	color: #f7600e;
 }
 .subtitle {
@@ -88,7 +90,7 @@ input {
 	height: 50px;
 	text-transform: uppercase;
 	width: 210px;
-
+	z-index: 3;
 }
 .slider .subtitle {
 	padding: 5px 0 60px;
@@ -103,17 +105,14 @@ input {
 .slider .button {
 	margin-right: 30px;
 }
-.slider .circle:hover {
-	background-color: #f7600e;
-	border-color: #f7600e;
-}
 .slider .circle {
 	background: url(../images/arrow-down.png) no-repeat center center;
 	border: 2px solid #fff;
 	border-radius: 50%;
 	height: 35px;
-	margin: 190px auto 45px;
+	margin-top: 195px;
 	width: 35px;
+	cursor: pointer;
 }
 .our-services {
 	padding: 100px 0 95px;
@@ -169,22 +168,23 @@ input {
 }
 .our-works {
 	color: #3b434c;
-	padding: 90px 0 90px;
+	padding: 90px 0 100px;
+	text-align: center;
 }
 .our-works .title {
 	font-size: 220%;
 	font-weight: 600;
 }
 .our-works .subtitle {
-	padding: 15px 0 95px;
+	padding: 15px 0 100px;
 	font-size: 100%;
 }
-.our-works .show-more {
-	padding-top: 95px;
-	text-align: center;
+.our-works img {
+	z-index: 1;
 }
-.our-works .show-more .button {
-	color: #000;
+.our-works .button-primary {
+	color: #3b434c;
+	margin-top: 100px;
 }
 
 
