@@ -1,0 +1,211 @@
+@import 'http://webfonts.ru/import/opensans.css';
+/*
+	Open Sans, 300, 300 italic, 400, 400 italic, 600, 600 italic, 700, 700 italic, 800, 800 italic
+*/
+*, *:before, *:after{
+	box-sizing: border-box;
+}
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+p {
+	margin: 0;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+}
+.row {
+	padding: 0 15px;
+}
+input {
+	outline: none;
+}
+.header {
+		background: url(../images/header-background.png) no-repeat;
+		height: 750px;
+		padding-top: 50px;
+	background-size: cover;
+}
+.line {
+	background: #fff;
+	height: 2px;
+	width: 20px;
+	display: block;
+}
+.main-logo {
+	display: inline-block;
+	font-size: 125%;
+	font-weight: 600;
+	margin: 0 0 0 30px;
+}
+.main-menu {
+	color: #fff;
+	display: inline-block;
+	float: right;
+}
+.main-menu .menu-text {
+	display: inline-block;
+	font-size: 100%;
+	vertical-align: middle;
+}
+.main-menu .lines {
+	display: inline-block;
+	padding-left: 18px;
+	vertical-align: middle;
+}
+.main-menu hr {
+	background-color: #fff;
+	border: none;
+	height: 2px;
+	width: 24px;
+}
+.slider {
+	color: #fff;
+	padding-top: 160px;
+	text-align: center;
+}
+.title {
+	font-size: 440%;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+}
+.main-logo span, .title span  {
+	color: #f7600e;
+}
+.subtitle {
+	font-size: 160%;
+	text-align: center;
+}
+.button-primary {
+	background-color: transparent;
+	border: 1px solid #65696e;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 100%;
+	height: 50px;
+	text-transform: uppercase;
+	width: 210px;
+
+}
+.slider .subtitle {
+	padding: 5px 0 60px;
+}
+.slider .button-primary:hover {
+	background-color: #f7600e;
+	border-color: #f7600e;
+}
+.slider .button:nth-child(2n) {
+	margin-right: 0;
+}
+.slider .button {
+	margin-right: 30px;
+}
+.slider .circle:hover {
+	background-color: #f7600e;
+	border-color: #f7600e;
+}
+.slider .circle {
+	background: url(../images/arrow-down.png) no-repeat center center;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	height: 35px;
+	margin: 190px auto 45px;
+	width: 35px;
+}
+.our-services {
+	padding: 100px 0 95px;
+	text-align: center;
+}
+.circle {
+	border: 2px solid #c7c9cc;
+	border-radius: 50%;
+	height: 155px;
+	margin: 0 auto;
+	width: 155px;
+}
+.design-img {
+	padding-top: 46px;
+}
+.design-title {
+	color: #3b434c;
+	font-size: 100%;
+	font-weight: 600;
+	padding: 25px 0 20px;
+	text-transform: uppercase;
+}
+.design-subtitle {
+	color: #3b434c;
+	font-size: 88%;
+	line-height: 26px;
+}
+.newsletter {
+	background: url(../images/newsletter-background.png) no-repeat center center;
+	text-align: center;
+}
+.newsletter form {
+	padding: 100px 0;
+}
+.text {
+	background-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	color: #3b434c;
+	font-size: 100%;
+	font-weight: 300;
+	height: 45px;
+	padding-left: 20px;
+}
+.newsletter .text {
+	margin-right: 30px;
+	width: 560px;
+}
+.newsletter .button-primary {
+	background-color: #f7600e;
+	border-color: #f7600e;
+	width: 270px;
+}
+.our-works {
+	color: #3b434c;
+	padding: 90px 0 90px;
+}
+.our-works .title {
+	font-size: 220%;
+	font-weight: 600;
+}
+.our-works .subtitle {
+	padding: 15px 0 95px;
+	font-size: 100%;
+}
+.our-works .show-more {
+	padding-top: 95px;
+	text-align: center;
+}
+.our-works .show-more .button {
+	color: #000;
+}
+
+
+
+
+
+footer .copyright {
+	display: inline-block;
+}
+footer .designed {
+	display: inline-block;
+	float: right;
+}
+footer a:hover {
+	color: #f7600e;
+}
+footer {
+	background-color: #3b434c;
+	border-top: 2px solid #9da1a6;
+	color: #fff;
+	font-size: 100%;
+	padding: 40px 0;
+	text-transform: uppercase;
+}
