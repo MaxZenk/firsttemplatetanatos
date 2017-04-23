@@ -22,9 +22,9 @@ input {
 	outline: none;
 }
 .header {
-		background: url(../images/header-background.png) no-repeat;
-		height: 750px;
-		padding-top: 50px;
+	background: url(../images/header-background.png) no-repeat;
+	height: 750px;
+	padding-top: 50px;
 	background-size: cover;
 }
 .line {
