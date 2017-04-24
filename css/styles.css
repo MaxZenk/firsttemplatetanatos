@@ -148,18 +148,16 @@ input {
 .newsletter form {
 	padding: 100px 0;
 }
-.text {
-	background-color: #fff;
+.u-full-width {
 	border: 1px solid #fff;
 	border-radius: 10px;
 	color: #3b434c;
 	font-size: 16px;
 	font-weight: 300;
-	height: 45px;
 	line-height: 40px;
 	padding-left: 20px;
 }
-.newsletter .text {
+.newsletter .u-full-width {
 	margin-right: 30px;
 	width: 560px;
 }
@@ -297,8 +295,17 @@ input {
 	color: #fff;
 }
 
-
-
+.say-hello .u-full-width {
+	margin-bottom: 20px;
+}
+.say-hello .button-primary {
+	float: right;
+	text-transform: uppercase;
+	width: 100%;
+	text-align: right;
+	padding-right: 85px;
+	background-color: #f7600e;
+}
 footer .copyright {
 	display: inline-block;
 }
