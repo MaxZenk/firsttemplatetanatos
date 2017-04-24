@@ -260,6 +260,8 @@ input {
 	border-top: transparent;
 	transform: rotate(45deg);
 	border-radius: 0 5px;
+	float: left;
+	margin-top: 230px;
 }
 .arrow-right {
 	height: 30px;
@@ -269,6 +271,8 @@ input {
 	border-bottom: transparent;
 	transform: rotate(45deg);
 	border-radius: 0 5px;
+	float: right;
+	margin-top: 230px;
 }
 
 
