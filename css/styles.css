@@ -87,10 +87,10 @@ input {
 	color: #fff;
 	cursor: pointer;
 	font-size: 100%;
+	font-weight: 600;
 	height: 50px;
 	text-transform: uppercase;
 	width: 210px;
-	z-index: 3;
 }
 .slider .subtitle {
 	padding: 5px 0 60px;
@@ -106,7 +106,7 @@ input {
 	margin-right: 30px;
 }
 .slider .circle {
-	background: url(../images/arrow-down.png) no-repeat center center;
+	background: url(../images/arrow-down.png) no-repeat center;
 	border: 2px solid #fff;
 	border-radius: 50%;
 	height: 35px;
@@ -141,7 +141,7 @@ input {
 	line-height: 26px;
 }
 .newsletter {
-	background: url(../images/newsletter-background.png) no-repeat center center;
+	background: url(../images/newsletter-background.png) no-repeat center;
 	text-align: center;
 }
 .newsletter form {
@@ -179,22 +179,54 @@ input {
 	padding: 15px 0 100px;
 	font-size: 100%;
 }
-.our-works .bg-image {
-	border-radius: 10px;
-	z-index: 2;
-	background: #f7600e;
+.magic{
+	position: relative;
 }
-.our-works img {
-	z-index: 1;
+.overlay {
+	position:absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(247, 96, 14, .90);
+	border-radius: 10px;
+	opacity: 0;
+	visibility: hidden;
+}
+.header-overlay {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	font-size: 156%;
+	margin-top: 75px;
+}
+.about-overlay {
+	color: #fff;
+	font-size: 87.5%;
+	margin: 20px 55px 50px 55px;
+}
+.button-overlay {
+	background-color: #fff;
+	border-radius: 10px;
+	border: none;
+	color: #f7600e;
+	cursor: pointer;
+	font-size: 100%;
+	font-weight: 600;
+	height: 50px;
+	text-transform: uppercase;
+	width: 210px;
+	display: block;
+	margin: 0 auto;
+}
+.magic:hover > .overlay {
+	opacity: 1;
+	visibility: visible;
 }
 .our-works .button-primary {
 	color: #3b434c;
 	margin-top: 100px;
 }
-
-
-
-
 
 footer .copyright {
 	display: inline-block;
