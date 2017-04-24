@@ -169,20 +169,23 @@ input {
 	width: 270px;
 }
 .our-works,
-.our-team {
+.our-team,
+.say-hello {
 	color: #3b434c;
 	padding: 90px 0 100px;
 	text-align: center;
 }
 .our-works .title,
-.our-team .title {
+.our-team .title,
+.say-hello .title {
 	font-size: 35px;
 	font-weight: 600;
 	line-height: 40px;
 	text-transform: uppercase;
 }
 .our-works .subtitle,
-.our-team .subtitle {
+.our-team .subtitle,
+.say-hello .subtitle {
 	font-size: 16px;
 	line-height: 30px;
 	padding: 15px 0 100px;
@@ -285,7 +288,14 @@ input {
 	transform: rotate(45deg);
 	width: 30px;
 }
-
+.say-hello {
+	background: url("../images/s-h-b.png") no-repeat;
+	height: 900px;
+}
+.say-hello .subtitle,
+.say-hello .title {
+	color: #fff;
+}
 
 
 
