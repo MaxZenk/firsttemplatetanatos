@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f7beb86-cc2c-457d-94e3-66b9e3fdf410" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/reset.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/skeleton.css" afterPath="$PROJECT_DIR$/css/skeleton.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,8 +75,8 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2072">
-                  <caret line="248" column="1" lean-forward="true" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="1" />
+                <state relative-caret-position="92">
+                  <caret line="251" column="14" lean-forward="true" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
@@ -714,7 +714,7 @@
       <workItem from="1492869186861" duration="25621000" />
       <workItem from="1492907648305" duration="1840000" />
       <workItem from="1492950742065" duration="11540000" />
-      <workItem from="1492989671803" duration="26409000" />
+      <workItem from="1492989671803" duration="27721000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1492908110982</created>
@@ -849,11 +849,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493027397202</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="edit css">
+      <created>1493031093488</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1493031093488</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79506000" />
+    <option name="totallyTimeSpent" value="80818000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -955,7 +962,8 @@
     <MESSAGE value="skeleton size ten columns" />
     <MESSAGE value="add for arrow cursor: pointer;" />
     <MESSAGE value="add title and subtitle for our team. add styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add title and subtitle for our team. add styles" />
+    <MESSAGE value="edit css" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit css" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1325,8 +1333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2072">
-          <caret line="248" column="1" lean-forward="true" selection-start-line="248" selection-start-column="1" selection-end-line="248" selection-end-column="1" />
+        <state relative-caret-position="92">
+          <caret line="251" column="14" lean-forward="true" selection-start-line="251" selection-start-column="14" selection-end-line="251" selection-end-column="14" />
           <folding />
         </state>
       </provider>

@@ -2,7 +2,8 @@
 /*
 	Open Sans, 300, 300 italic, 400, 400 italic, 600, 600 italic, 700, 700 italic, 800, 800 italic
 */
-*, *:before,
+*,
+*:before,
 *:after {
 	box-sizing: border-box;
 }
@@ -24,19 +25,19 @@ input {
 }
 .header {
 	background: url(../images/header-background.png) no-repeat;
+	background-size: cover;
 	height: 800px;
 	padding-top: 50px;
-	background-size: cover;
 }
 .line {
 	background: #fff;
+	display: block;
 	height: 2px;
 	width: 20px;
-	display: block;
 }
 .main-logo {
 	display: inline-block;
-	font-size: 125%;
+	font-size: 16px;
 	font-weight: 600;
 	margin: 0 0 0 30px;
 }
@@ -47,9 +48,9 @@ input {
 }
 .main-menu .menu-text {
 	display: inline-block;
-	font-size: 128%;
+	font-size: 16px;
+	line-height: 16.8px;
 	vertical-align: middle;
-	line-height: 105%;
 }
 .main-menu .lines {
 	display: inline-block;
@@ -68,7 +69,7 @@ input {
 	text-align: center;
 }
 .slider .title {
-	font-size: 437.5%;
+	font-size: 70px;
 	font-weight: 900;
 	text-transform: uppercase;
 }
@@ -77,21 +78,22 @@ input {
 	color: #f7600e;
 }
 .slider .subtitle {
+	font-size: 25px;
+	line-height: 40px;
 	padding: 5px 0 60px;
-	font-size: 156.3%;
 }
 .button-primary {
 	background-color: transparent;
 	border: 1px solid #65696e;
 	border-radius: 10px;
 	color: #fff;
-	font-size: 100%;
+	font-size: 16px;
 	font-weight: 600;
-	line-height: 250%;
 	height: 50px;
+	line-height: 40px;
 	text-transform: uppercase;
+	transition: all .3s ease-out;
 	width: 210px;
-	transition: all 0.3s ease-out;
 }
 .slider .button-primary:hover {
 	background-color: #f7600e;
@@ -107,10 +109,10 @@ input {
 	background: url(../images/arrow-down.png) no-repeat center;
 	border: 2px solid #fff;
 	border-radius: 50%;
+	cursor: pointer;
 	height: 35px;
 	margin-top: 195px;
 	width: 35px;
-	cursor: pointer;
 }
 .our-services {
 	padding: 100px 0 95px;
@@ -128,16 +130,16 @@ input {
 }
 .design-title {
 	color: #3b434c;
-	font-size: 100%;
+	font-size: 16px;
 	font-weight: 600;
-	line-height: 250%;
+	line-height: 40px;
 	padding: 25px 0 20px;
 	text-transform: uppercase;
 }
 .design-subtitle {
 	color: #3b434c;
-	font-size: 87.5%;
-	line-height: 162.5%;
+	font-size: 14px;
+	line-height: 26px;
 }
 .newsletter {
 	background: url(../images/newsletter-background.png) no-repeat center;
@@ -151,9 +153,10 @@ input {
 	border: 1px solid #fff;
 	border-radius: 10px;
 	color: #3b434c;
-	font-size: 100%;
+	font-size: 16px;
 	font-weight: 300;
 	height: 45px;
+	line-height: 40px;
 	padding-left: 20px;
 }
 .newsletter .text {
@@ -166,61 +169,65 @@ input {
 	width: 270px;
 }
 .our-works,
-.our-team{
+.our-team {
 	color: #3b434c;
 	padding: 90px 0 100px;
 	text-align: center;
 }
 .our-works .title,
 .our-team .title {
-	font-size: 218.8%;
+	font-size: 35px;
 	font-weight: 600;
+	line-height: 40px;
 	text-transform: uppercase;
 }
 .our-works .subtitle,
 .our-team .subtitle {
+	font-size: 16px;
+	line-height: 30px;
 	padding: 15px 0 100px;
-	font-size: 100%;
 }
-.magic{
+.magic {
 	position: relative;
 }
 .overlay {
-	position:absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
 	background-color: rgba(247, 96, 14, .90);
 	border-radius: 10px;
+	bottom: 0;
+	left: 0;
 	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	transition: all .3s ease-out;
 	visibility: hidden;
-	transition: all 0.3s ease-out;
 }
 .header-overlay {
-	text-transform: uppercase;
 	color: #fff;
+	font-size: 25px;
 	font-weight: 600;
-	font-size: 156%;
+	line-height: 40px;
 	margin-top: 75px;
+	text-transform: uppercase;
 }
 .about-overlay {
 	color: #fff;
-	font-size: 87.5%;
+	font-size: 14px;
+	line-height: 26px;
 	margin: 20px 55px 50px 55px;
 }
 .button-overlay {
 	background-color: #fff;
-	border-radius: 10px;
 	border: none;
+	border-radius: 10px;
 	color: #f7600e;
+	display: block;
 	font-size: 100%;
 	font-weight: 600;
 	height: 50px;
+	margin: 0 auto;
 	text-transform: uppercase;
 	width: 210px;
-	display: block;
-	margin: 0 auto;
 }
 .magic:hover > .overlay {
 	opacity: 1;
@@ -242,39 +249,41 @@ input {
 	margin-top: 100px;
 }
 .comment {
-	font-size: 156.3%;
 	color: #fff;
+	font-size: 25px;
 	font-style: italic;
+	line-height: 40px;
 	margin: 40px 0 35px;
 }
 .author {
 	color: #fff;
-	font-size: 112.5%;
+	font-size: 18px;
 	font-weight: 600;
+	line-height: 40px;
 }
 .arrow-left {
-	height: 30px;
-	width: 30px;
 	border: 4px solid #707479;
+	border-radius: 0 5px;
 	border-right: transparent;
 	border-top: transparent;
-	transform: rotate(45deg);
-	border-radius: 0 5px;
-	float: left;
-	margin-top: 230px;
 	cursor: pointer;
+	float: left;
+	height: 30px;
+	margin-top: 230px;
+	transform: rotate(45deg);
+	width: 30px;
 }
 .arrow-right {
-	height: 30px;
-	width: 30px;
 	border: 4px solid #707479;
-	border-left: transparent;
 	border-bottom: transparent;
-	transform: rotate(45deg);
+	border-left: transparent;
 	border-radius: 0 5px;
-	float: right;
-	margin-top: 230px;
 	cursor: pointer;
+	float: right;
+	height: 30px;
+	margin-top: 230px;
+	transform: rotate(45deg);
+	width: 30px;
 }
 
 
