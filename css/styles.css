@@ -262,6 +262,7 @@ input {
 	border-radius: 0 5px;
 	float: left;
 	margin-top: 230px;
+	cursor: pointer;
 }
 .arrow-right {
 	height: 30px;
@@ -273,6 +274,7 @@ input {
 	border-radius: 0 5px;
 	float: right;
 	margin-top: 230px;
+	cursor: pointer;
 }
 
 
