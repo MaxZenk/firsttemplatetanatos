@@ -49,6 +49,7 @@ input {
 	display: inline-block;
 	font-size: 128%;
 	vertical-align: middle;
+	line-height: 105%;
 }
 .main-menu .lines {
 	display: inline-block;
@@ -66,35 +67,31 @@ input {
 	padding-top: 160px;
 	text-align: center;
 }
-.title {
+.slider .title {
 	font-size: 437.5%;
 	font-weight: 900;
 	text-transform: uppercase;
-	text-align: center;
 }
 .main-logo span,
 .title span {
 	color: #f7600e;
 }
-.subtitle {
+.slider .subtitle {
+	padding: 5px 0 60px;
 	font-size: 156.3%;
-	text-align: center;
 }
 .button-primary {
 	background-color: transparent;
 	border: 1px solid #65696e;
 	border-radius: 10px;
 	color: #fff;
-	cursor: pointer;
 	font-size: 100%;
 	font-weight: 600;
+	line-height: 250%;
 	height: 50px;
 	text-transform: uppercase;
 	width: 210px;
 	transition: all 0.3s ease-out;
-}
-.slider .subtitle {
-	padding: 5px 0 60px;
 }
 .slider .button-primary:hover {
 	background-color: #f7600e;
@@ -133,13 +130,14 @@ input {
 	color: #3b434c;
 	font-size: 100%;
 	font-weight: 600;
+	line-height: 250%;
 	padding: 25px 0 20px;
 	text-transform: uppercase;
 }
 .design-subtitle {
 	color: #3b434c;
 	font-size: 87.5%;
-	line-height: 26px;
+	line-height: 162.5%;
 }
 .newsletter {
 	background: url(../images/newsletter-background.png) no-repeat center;
@@ -177,6 +175,7 @@ input {
 .our-team .title {
 	font-size: 218.8%;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 .our-works .subtitle,
 .our-team .subtitle {
@@ -215,7 +214,6 @@ input {
 	border-radius: 10px;
 	border: none;
 	color: #f7600e;
-	cursor: pointer;
 	font-size: 100%;
 	font-weight: 600;
 	height: 50px;
@@ -232,7 +230,6 @@ input {
 	color: #3b434c;
 	margin-top: 100px;
 }
-
 .what-clients-say {
 	background: url(../images/w-c-s-b.png) no-repeat center;
 	height: 500px;
@@ -279,6 +276,8 @@ input {
 	margin-top: 230px;
 	cursor: pointer;
 }
+
+
 
 
 footer .copyright {
