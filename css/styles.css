@@ -47,7 +47,7 @@ input {
 }
 .main-menu .menu-text {
 	display: inline-block;
-	font-size: 100%;
+	font-size: 128%;
 	vertical-align: middle;
 }
 .main-menu .lines {
@@ -67,7 +67,7 @@ input {
 	text-align: center;
 }
 .title {
-	font-size: 440%;
+	font-size: 437.5%;
 	font-weight: 900;
 	text-transform: uppercase;
 	text-align: center;
@@ -77,7 +77,7 @@ input {
 	color: #f7600e;
 }
 .subtitle {
-	font-size: 160%;
+	font-size: 156.3%;
 	text-align: center;
 }
 .button-primary {
@@ -91,6 +91,7 @@ input {
 	height: 50px;
 	text-transform: uppercase;
 	width: 210px;
+	transition: all 0.3s ease-out;
 }
 .slider .subtitle {
 	padding: 5px 0 60px;
@@ -137,7 +138,7 @@ input {
 }
 .design-subtitle {
 	color: #3b434c;
-	font-size: 88%;
+	font-size: 87.5%;
 	line-height: 26px;
 }
 .newsletter {
@@ -172,7 +173,7 @@ input {
 	text-align: center;
 }
 .our-works .title {
-	font-size: 220%;
+	font-size: 218.8%;
 	font-weight: 600;
 }
 .our-works .subtitle {
@@ -192,6 +193,7 @@ input {
 	border-radius: 10px;
 	opacity: 0;
 	visibility: hidden;
+	transition: all 0.3s ease-out;
 }
 .header-overlay {
 	text-transform: uppercase;
@@ -227,6 +229,48 @@ input {
 	color: #3b434c;
 	margin-top: 100px;
 }
+
+.what-clients-say {
+	background: url(../images/w-c-s-b.png) no-repeat center;
+	height: 500px;
+}
+.what-clients-say .columns {
+	margin: 0;
+	text-align: center;
+}
+.avatar {
+	margin-top: 100px;
+}
+.comment {
+	font-size: 156.3%;
+	color: #fff;
+	font-style: italic;
+	margin: 40px 0 35px;
+}
+.author {
+	color: #fff;
+	font-size: 112.5%;
+	font-weight: 600;
+}
+.arrow-left {
+	height: 30px;
+	width: 30px;
+	border: 3px solid #707479;
+	border-right: transparent;
+	border-top: transparent;
+	transform: rotate(45deg);
+	border-radius: 0 5px;
+}
+.arrow-right {
+	height: 30px;
+	width: 30px;
+	border: 3px solid #707479;
+	border-left: transparent;
+	border-bottom: transparent;
+	transform: rotate(45deg);
+	border-radius: 0 5px;
+}
+
 
 footer .copyright {
 	display: inline-block;
