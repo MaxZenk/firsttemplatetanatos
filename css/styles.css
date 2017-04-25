@@ -142,8 +142,9 @@ input {
 	line-height: 26px;
 }
 .newsletter {
-	background: url(../images/newsletter-background.png) no-repeat center;
+	background: url(../images/newsletter-background.png) no-repeat;
 	text-align: center;
+	background-size: cover;
 }
 .newsletter form {
 	padding: 100px 0;
@@ -239,8 +240,9 @@ input {
 	margin-top: 100px;
 }
 .what-clients-say {
-	background: url(../images/w-c-s-b.png) no-repeat center;
+	background: url(../images/w-c-s-b.png) no-repeat;
 	height: 500px;
+	background-size: cover;
 }
 .what-clients-say .columns {
 	margin: 0;
@@ -289,12 +291,11 @@ input {
 .say-hello {
 	background: url("../images/s-h-b.png") no-repeat;
 	height: 900px;
+	background-size: cover;
 }
-.say-hello .subtitle,
-.say-hello .title {
+.say-hello {
 	color: #fff;
 }
-
 .say-hello .u-full-width {
 	margin-bottom: 20px;
 }
@@ -305,6 +306,31 @@ input {
 	text-align: right;
 	padding-right: 85px;
 	background-color: #f7600e;
+}
+.contacts-title {
+	text-transform: uppercase;
+	color: #fff;
+}
+.contacts-about {
+	color: #fff;
+	text-align: left;
+	font-size: 14px;
+}
+.contact-icons {
+	height: 12px;
+	width: 17px;
+}
+.info-icons {
+	padding: 0;
+}
+.info-ico {
+	height: 50px;
+	width: 50px;
+	float: left;
+}
+.soc-icons {
+	float: left;
+	padding: 0;
 }
 .soc-ico {
 	display: inline-block;
