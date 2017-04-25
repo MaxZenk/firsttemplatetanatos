@@ -306,6 +306,12 @@ input {
 	padding-right: 85px;
 	background-color: #f7600e;
 }
+.soc-ico {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	margin-right: 10px;
+}
 footer .copyright {
 	display: inline-block;
 }
