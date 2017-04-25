@@ -310,21 +310,23 @@ input {
 .contacts-title {
 	text-transform: uppercase;
 	color: #fff;
+	text-align: left;
+	font-weight: 600;
 }
 .contacts-about {
 	color: #fff;
 	text-align: left;
 	font-size: 14px;
+	line-height: 26px;
 }
 .contact-icons {
-	height: 12px;
 	width: 17px;
+	margin-right: 10px;
 }
 .info-icons {
 	padding: 0;
 }
 .info-ico {
-	height: 50px;
 	width: 50px;
 	float: left;
 }
@@ -335,7 +337,6 @@ input {
 .soc-ico {
 	display: inline-block;
 	width: 45px;
-	height: 45px;
 	margin-right: 10px;
 }
 footer .copyright {
