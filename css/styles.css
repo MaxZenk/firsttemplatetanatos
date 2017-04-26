@@ -17,11 +17,14 @@ a {
 	color: #fff;
 	text-decoration: none;
 }
-.row {
-	padding: 0 15px;
-}
 input {
 	outline: none;
+}
+label {
+	cursor: pointer;
+}
+.row {
+	padding: 0 15px;
 }
 .header {
 	background: url(../images/header-background.png) no-repeat;
@@ -30,7 +33,7 @@ input {
 	padding-top: 50px;
 }
 .line {
-	background: #fff;
+	background-color: #fff;
 	display: block;
 	height: 2px;
 	width: 20px;
@@ -54,7 +57,7 @@ input {
 }
 .main-menu .lines {
 	display: inline-block;
-	padding-left: 18px;
+	margin-left: 18px;
 	vertical-align: middle;
 }
 .main-menu hr {
@@ -65,7 +68,7 @@ input {
 }
 .slider {
 	color: #fff;
-	padding-top: 160px;
+	margin-top: 160px;
 	text-align: center;
 }
 .slider .title {
@@ -80,7 +83,7 @@ input {
 .slider .subtitle {
 	font-size: 25px;
 	line-height: 40px;
-	padding: 5px 0 60px;
+	margin: 5px 0 60px;
 }
 .button-primary {
 	background-color: transparent;
@@ -92,7 +95,7 @@ input {
 	height: 50px;
 	line-height: 40px;
 	text-transform: uppercase;
-	transition: all .3s ease-out;
+	transition:all 0.4s linear, ease-out;
 	width: 210px;
 }
 .slider .button-primary:hover {
@@ -126,14 +129,14 @@ input {
 	width: 155px;
 }
 .design-img {
-	padding-top: 46px;
+	margin-top: 46px;
 }
 .design-title {
 	color: #3b434c;
 	font-size: 16px;
 	font-weight: 600;
 	line-height: 40px;
-	padding: 25px 0 20px;
+	margin: 25px 0 20px;
 	text-transform: uppercase;
 }
 .design-subtitle {
@@ -187,7 +190,7 @@ input {
 .say-hello .subtitle {
 	font-size: 16px;
 	line-height: 30px;
-	padding: 15px 0 100px;
+	margin: 15px 0 100px;
 }
 .magic {
 	position: relative;
@@ -201,7 +204,7 @@ input {
 	position: absolute;
 	right: 0;
 	top: 0;
-	transition: all .3s ease-out;
+	transition:all 0.4s linear, ease-out;
 	visibility: hidden;
 }
 .header-overlay {
@@ -292,15 +295,42 @@ input {
 	text-transform: uppercase;
 	font-weight: 600;
 	font-size: 25px;
-	padding: 15px 0 25px;
+	margin: 15px 0 25px;
 }
 .soc-icon-team {
 	width: 24px;
 }
+.ico-t {
+	margin: 0 10px;
+}
 .about-team {
 	font-size: 14px;
 	line-height: 26px;
-	padding-top: 20px;
+	margin: 20px 0 90px;
+}
+input[type="radio"] {
+	display: none;
+}
+.label-body {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+.label-body {
+	background-color: #c4c6c9;
+	margin-right: 15px;
+}
+.label-body:last-child {
+	margin-right: 0;
+}
+input[type="radio"]:checked + .label-body{
+	background-color: #f7600e;
+}
+input[type="radio"] + .label-body,
+input[type="radio"]:checked + .label-body {
+	transition: all 0.4s linear, ease-out;
 }
 .say-hello {
 	background: url("../images/s-h-b.png") no-repeat;
@@ -334,8 +364,9 @@ input {
 	line-height: 26px;
 }
 .contact-icons {
-	width: 17px;
-	margin-right: 10px;
+	width: 20px;
+	margin-right: 15px;
+	vertical-align: middle;
 }
 .info-icons {
 	padding: 0;
