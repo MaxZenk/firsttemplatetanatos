@@ -288,6 +288,20 @@ input {
 	transform: rotate(45deg);
 	width: 30px;
 }
+.name-team {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 25px;
+	padding: 15px 0 25px;
+}
+.soc-icon-team {
+	width: 24px;
+}
+.about-team {
+	font-size: 14px;
+	line-height: 26px;
+	padding-top: 20px;
+}
 .say-hello {
 	background: url("../images/s-h-b.png") no-repeat;
 	height: 900px;
