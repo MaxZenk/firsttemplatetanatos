@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f7beb86-cc2c-457d-94e3-66b9e3fdf410" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +32,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="321">
-                  <caret line="228" column="76" lean-forward="false" selection-start-line="228" selection-start-column="76" selection-end-line="228" selection-end-column="76" />
+                <state relative-caret-position="381">
+                  <caret line="231" column="100" lean-forward="false" selection-start-line="231" selection-start-column="100" selection-end-line="231" selection-end-column="100" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -724,7 +723,7 @@
       <workItem from="1492989671803" duration="36398000" />
       <workItem from="1493095543095" duration="19019000" />
       <workItem from="1493207563977" duration="87000" />
-      <workItem from="1493207823934" duration="7628000" />
+      <workItem from="1493207823934" duration="8091000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1492908110982</created>
@@ -929,11 +928,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493219215444</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="edit block team">
+      <created>1493229200048</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1493229200048</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116229000" />
+    <option name="totallyTimeSpent" value="116692000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1016,7 +1022,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add ne rows" />
     <MESSAGE value="add height header" />
     <MESSAGE value="edit class circle" />
     <MESSAGE value="add block our works" />
@@ -1041,7 +1046,8 @@
     <MESSAGE value="edit blocks say hello" />
     <MESSAGE value="say hello complete!" />
     <MESSAGE value="add block team images" />
-    <option name="LAST_COMMIT_MESSAGE" value="add block team images" />
+    <MESSAGE value="edit block team" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit block team" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1579,8 +1585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="228" column="76" lean-forward="false" selection-start-line="228" selection-start-column="76" selection-end-line="228" selection-end-column="76" />
+        <state relative-caret-position="381">
+          <caret line="231" column="100" lean-forward="false" selection-start-line="231" selection-start-column="100" selection-end-line="231" selection-end-column="100" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
