@@ -95,7 +95,9 @@ label {
 	height: 50px;
 	line-height: 40px;
 	text-transform: uppercase;
-	transition:all 0.4s linear, ease-out;
+	-webkit-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
 	width: 210px;
 }
 .slider .button-primary:hover {
@@ -204,7 +206,9 @@ label {
 	position: absolute;
 	right: 0;
 	top: 0;
-	transition:all 0.4s linear, ease-out;
+	-webkit-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
 	visibility: hidden;
 }
 .header-overlay {
@@ -308,6 +312,7 @@ label {
 	line-height: 26px;
 	margin: 20px 0 90px;
 }
+
 input[type="radio"] {
 	display: none;
 }
@@ -317,20 +322,23 @@ input[type="radio"] {
 	height: 10px;
 	cursor: pointer;
 	border-radius: 50%;
+	vertical-align: middle;
 }
 .label-body {
 	background-color: #c4c6c9;
 	margin-right: 15px;
 }
-.label-body:last-child {
-	margin-right: 0;
-}
 input[type="radio"]:checked + .label-body{
 	background-color: #f7600e;
+	height: 15px;
+	width: 15px;
 }
+
 input[type="radio"] + .label-body,
 input[type="radio"]:checked + .label-body {
-	transition: all 0.4s linear, ease-out;
+	-webkit-transition: all 0.4s ease-out;
+	-o-transition: all 0.4s ease-out;
+	transition: all 0.4s ease-out;
 }
 .say-hello {
 	background: url("../images/s-h-b.png") no-repeat;
