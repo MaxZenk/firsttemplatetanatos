@@ -303,13 +303,6 @@ label {
 	background-position: center;
 	margin: 0 auto;
 }
-.team-img-line {
-	height: 5px;
-	background-color: #f7600e;
-	width: 262px;
-	border-radius: 5px;
-	display: none;
-}
 .name-team {
 	text-transform: uppercase;
 	font-weight: 600;
