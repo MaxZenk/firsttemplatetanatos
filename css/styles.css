@@ -295,6 +295,14 @@ label {
 	transform: rotate(45deg);
 	width: 30px;
 }
+.team-img {
+	border: solid 1px #c4c6c9;
+	border-radius: 10px;
+	height: 285px;
+	width: 235px;
+	background-position: center;
+	margin: 0 auto;
+}
 .name-team {
 	text-transform: uppercase;
 	font-weight: 600;
@@ -312,7 +320,23 @@ label {
 	line-height: 26px;
 	margin: 20px 0 90px;
 }
-
+/*.our-team .columns{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: gray;
+}*/
+.our-team .team-img:hover {
+	cursor: pointer;
+	-webkit-filter: none;
+	-moz-filter: none;
+	-ms-filter: none;
+	-o-filter: none;
+	filter: none;
+	zoom: 111.5%;
+}
 input[type="radio"] {
 	display: none;
 }
@@ -333,7 +357,6 @@ input[type="radio"]:checked + .label-body{
 	height: 15px;
 	width: 15px;
 }
-
 input[type="radio"] + .label-body,
 input[type="radio"]:checked + .label-body {
 	-webkit-transition: all 0.4s ease-out;
