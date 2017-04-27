@@ -4,7 +4,6 @@
     <list default="true" id="4f7beb86-cc2c-457d-94e3-66b9e3fdf410" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,7 +32,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="451">
+                <state relative-caret-position="511">
                   <caret line="218" column="37" lean-forward="true" selection-start-line="218" selection-start-column="37" selection-end-line="218" selection-end-column="37" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -85,8 +84,8 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="264">
-                  <caret line="337" column="14" lean-forward="false" selection-start-line="337" selection-start-column="14" selection-end-line="337" selection-end-column="14" />
+                <state relative-caret-position="332">
+                  <caret line="338" column="21" lean-forward="true" selection-start-line="338" selection-start-column="21" selection-end-line="338" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -730,7 +729,7 @@
       <workItem from="1492989671803" duration="36398000" />
       <workItem from="1493095543095" duration="19019000" />
       <workItem from="1493207563977" duration="87000" />
-      <workItem from="1493207823934" duration="31484000" />
+      <workItem from="1493207823934" duration="32747000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1492908110982</created>
@@ -963,11 +962,18 @@
       <option name="project" value="LOCAL" />
       <updated>1493245236522</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="!!!!!!">
+      <created>1493255705026</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1493255705027</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140085000" />
+    <option name="totallyTimeSpent" value="141348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1050,7 +1056,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="four columns 31.58%" />
     <MESSAGE value="add z-index" />
     <MESSAGE value="add new block bg-image" />
     <MESSAGE value="add style for bg-image" />
@@ -1075,7 +1080,8 @@
     <MESSAGE value="add radio" />
     <MESSAGE value="edit radio" />
     <MESSAGE value=" edit animation and radio" />
-    <option name="LAST_COMMIT_MESSAGE" value=" edit animation and radio" />
+    <MESSAGE value="!!!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="!!!!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1659,7 +1665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="451">
+        <state relative-caret-position="511">
           <caret line="218" column="37" lean-forward="true" selection-start-line="218" selection-start-column="37" selection-end-line="218" selection-end-column="37" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -1688,8 +1694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="337" column="14" lean-forward="false" selection-start-line="337" selection-start-column="14" selection-end-line="337" selection-end-column="14" />
+        <state relative-caret-position="332">
+          <caret line="338" column="21" lean-forward="true" selection-start-line="338" selection-start-column="21" selection-end-line="338" selection-end-column="21" />
           <folding />
         </state>
       </provider>

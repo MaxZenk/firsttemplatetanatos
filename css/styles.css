@@ -320,14 +320,14 @@ label {
 	line-height: 26px;
 	margin: 20px 0 90px;
 }
-/*.our-team .columns{
+.our-team .columns{
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
 	filter: grayscale(100%);
 	filter: gray;
-}*/
+}
 .our-team .team-img:hover {
 	cursor: pointer;
 	-webkit-filter: none;
@@ -336,6 +336,7 @@ label {
 	-o-filter: none;
 	filter: none;
 	zoom: 111.5%;
+	margin-top: -12.5%;
 }
 input[type="radio"] {
 	display: none;
