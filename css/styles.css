@@ -60,6 +60,7 @@ label {
 	margin-left: 18px;
 	vertical-align: middle;
 }
+
 .main-menu hr {
 	background-color: #fff;
 	border: none;
@@ -296,7 +297,6 @@ label {
 	width: 30px;
 }
 .team-img {
-	border: solid 1px #c4c6c9;
 	border-radius: 10px;
 	height: 285px;
 	width: 235px;
@@ -358,7 +358,7 @@ label {
 	cursor: pointer;
 }
 .our-team .columns:hover .team-img:after {
-content: '';
+	content: '';
 	display: block;
 	height: 5px;
 	left: 0;
@@ -366,7 +366,7 @@ content: '';
 	bottom: 0;
 	position: absolute;
 	background-color: #f7600e;
-	border-radius: 3px;
+	border-radius: 2.5px;
 }
 input[type="radio"] {
 	display: none;
