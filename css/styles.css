@@ -320,33 +320,34 @@ label {
 	line-height: 26px;
 	margin: 20px 0 90px;
 }
+
 .our-team .columns *{
 	-webkit-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
 	transition: all 0.1s ease-out;
 }
-.team-img ~ p{
+.team-img ~ p {
 	color: #989898;
 }
-.team-img ~ a, .team-img{
+.team-img ~ a, .team-img {
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
 	-o-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
-.our-team .columns:hover .team-img ~ p{
+.our-team .columns:hover .team-img ~ p {
 	color: #3b434c;
 	cursor: pointer;
 }
-.our-team .columns:hover .team-img ~ a, .our-team .columns:hover .team-img{
+.our-team .columns:hover .team-img ~ a, .our-team .columns:hover .team-img {
 	-webkit-filter: none;
 	-moz-filter: none;
 	-ms-filter: none;
 	-o-filter: none;
 	filter: none;
 }
-.team-img{
+.team-img {
 	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
@@ -378,8 +379,6 @@ input[type="radio"] {
 	cursor: pointer;
 	border-radius: 50%;
 	vertical-align: middle;
-}
-.label-body {
 	background-color: #c4c6c9;
 	margin-right: 15px;
 }
@@ -390,9 +389,9 @@ input[type="radio"]:checked + .label-body{
 }
 input[type="radio"] + .label-body,
 input[type="radio"]:checked + .label-body {
-	-webkit-transition: all 0.4s ease-out;
-	-o-transition: all 0.4s ease-out;
-	transition: all 0.4s ease-out;
+	-webkit-transition: all 0.1s ease-out;
+	-o-transition: all 0.1s ease-out;
+	transition: all 0.1s ease-out;
 }
 .say-hello {
 	background: url("../images/s-h-b.png") no-repeat;
