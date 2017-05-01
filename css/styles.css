@@ -27,7 +27,7 @@ label {
 	padding: 0 15px;
 }
 .header {
-	background: url(../images/header-background.png) no-repeat;
+	background: url(../images/header-background.png) center center;
 	background-size: cover;
 	height: 800px;
 	padding-top: 50px;
@@ -148,7 +148,7 @@ label {
 	line-height: 26px;
 }
 .newsletter {
-	background: url(../images/newsletter-background.png) no-repeat;
+	background: url(../images/newsletter-background.png) center center;
 	text-align: center;
 	background-size: cover;
 }
@@ -248,7 +248,7 @@ label {
 	margin-top: 100px;
 }
 .what-clients-say {
-	background: url(../images/w-c-s-b.png) no-repeat;
+	background: url(../images/w-c-s-b.png) center center;
 	height: 500px;
 	background-size: cover;
 }
@@ -394,7 +394,7 @@ input[type="radio"]:checked + .label-body {
 	transition: all 0.1s ease-out;
 }
 .say-hello {
-	background: url("../images/s-h-b.png") no-repeat;
+	background: url("../images/s-h-b.png") center center;
 	height: 900px;
 	background-size: cover;
 }
