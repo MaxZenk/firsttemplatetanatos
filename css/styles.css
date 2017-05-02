@@ -60,7 +60,6 @@ label {
 	margin-left: 18px;
 	vertical-align: middle;
 }
-
 .main-menu hr {
 	background-color: #fff;
 	border: none;
@@ -86,7 +85,12 @@ label {
 	line-height: 40px;
 	margin: 5px 0 60px;
 }
-.button-primary {
+.button-a {
+vertical-align: middle;
+}
+.button-primary,
+.button-a {
+	display: inline-block;
 	background-color: transparent;
 	border: 1px solid #65696e;
 	border-radius: 10px;
@@ -226,18 +230,11 @@ label {
 	line-height: 26px;
 	margin: 20px 55px 50px 55px;
 }
-.button-overlay {
+.our-works .overlay .button-primary {
 	background-color: #fff;
 	border: none;
-	border-radius: 10px;
 	color: #f7600e;
-	display: block;
-	font-size: 100%;
-	font-weight: 600;
-	height: 50px;
 	margin: 0 auto;
-	text-transform: uppercase;
-	width: 210px;
 }
 .magic:hover > .overlay {
 	opacity: 1;
@@ -272,29 +269,23 @@ label {
 	font-weight: 600;
 	line-height: 40px;
 }
-.arrow-left {
+.arrow {
 	border: 4px solid #707479;
 	border-radius: 0 5px;
-	border-right: transparent;
-	border-top: transparent;
 	cursor: pointer;
-	float: left;
 	height: 30px;
 	margin-top: 230px;
 	transform: rotate(45deg);
 	width: 30px;
 }
+.arrow-left {
+	border-right: transparent;
+	border-top: transparent;
+}
 .arrow-right {
-	border: 4px solid #707479;
 	border-bottom: transparent;
 	border-left: transparent;
-	border-radius: 0 5px;
-	cursor: pointer;
 	float: right;
-	height: 30px;
-	margin-top: 230px;
-	transform: rotate(45deg);
-	width: 30px;
 }
 .team-img {
 	border-radius: 10px;
@@ -320,7 +311,6 @@ label {
 	line-height: 26px;
 	margin: 20px 0 90px;
 }
-
 .our-team .columns *{
 	-webkit-transition: all 0.1s ease-out;
 	-o-transition: all 0.1s ease-out;
@@ -405,8 +395,6 @@ input[type="radio"]:checked + .label-body {
 	margin-bottom: 20px;
 }
 .say-hello .button-primary {
-	float: right;
-	text-transform: uppercase;
 	width: 100%;
 	text-align: right;
 	padding-right: 85px;
