@@ -86,34 +86,34 @@ label {
 	margin: 5px 0 60px;
 }
 .button-a {
-vertical-align: middle;
+	vertical-align: middle;
 }
 .button-a {
-	display: inline-block;
 	background-color: transparent;
 	border: 1px solid #65696e;
 	border-radius: 10px;
+	display: inline-block;
 	font-weight: 600;
 	height: 50px;
 	line-height: 48px;
-	text-transform: uppercase;
-	-webkit-transition: all 0.4s ease-out;
-	-o-transition: all 0.4s ease-out;
-	transition: all 0.4s ease-out;
-	width: 210px;
 	margin-bottom: 3px;
+	-o-transition: all .4s ease-out;
+	text-transform: uppercase;
+	transition: all .4s ease-out;
+	-webkit-transition: all .4s ease-out;
+	width: 210px;
 }
-.button-primary  {
+.button-primary {
 	background-color: transparent;
 	border: 1px solid #65696e;
 	border-radius: 10px;
 	font-weight: 600;
 	height: 50px;
 	line-height: 40px;
+	-o-transition: all .4s ease-out;
 	text-transform: uppercase;
-	-webkit-transition: all 0.4s ease-out;
-	-o-transition: all 0.4s ease-out;
-	transition: all 0.4s ease-out;
+	transition: all .4s ease-out;
+	-webkit-transition: all .4s ease-out;
 	width: 210px;
 }
 .slider .button-primary:hover,
@@ -165,8 +165,8 @@ vertical-align: middle;
 }
 .newsletter {
 	background: url(../images/newsletter-background.png) center center;
-	text-align: center;
 	background-size: cover;
+	text-align: center;
 }
 .newsletter form {
 	padding: 100px 0;
@@ -187,8 +187,8 @@ vertical-align: middle;
 .newsletter .button-primary {
 	background-color: #f7600e;
 	border-color: #f7600e;
-	width: 270px;
 	color: #fff;
+	width: 270px;
 }
 .our-works,
 .our-team,
@@ -221,13 +221,13 @@ vertical-align: middle;
 	bottom: 0;
 	left: 0;
 	opacity: 0;
+	-o-transition: all .4s ease-out;
 	position: absolute;
 	right: 0;
 	top: 0;
-	-webkit-transition: all 0.4s ease-out;
-	-o-transition: all 0.4s ease-out;
-	transition: all 0.4s ease-out;
+	transition: all .4s ease-out;
 	visibility: hidden;
+	-webkit-transition: all .4s ease-out;
 }
 .header-overlay {
 	color: #fff;
@@ -259,8 +259,8 @@ vertical-align: middle;
 }
 .what-clients-say {
 	background: url(../images/w-c-s-b.png) center center;
-	height: 500px;
 	background-size: cover;
+	height: 500px;
 }
 .what-clients-say .columns {
 	margin: 0;
@@ -301,17 +301,17 @@ vertical-align: middle;
 	float: right;
 }
 .team-img {
+	background-position: center;
 	border-radius: 10px;
 	height: 285px;
-	width: 235px;
-	background-position: center;
 	margin: 0 auto;
+	width: 235px;
 }
 .name-team {
-	text-transform: uppercase;
-	font-weight: 600;
 	font-size: 25px;
+	font-weight: 600;
 	margin: 15px 0 25px;
+	text-transform: uppercase;
 }
 .soc-icon-team {
 	width: 24px;
@@ -324,15 +324,16 @@ vertical-align: middle;
 	line-height: 26px;
 	margin: 20px 0 90px;
 }
-.our-team .columns *{
-	-webkit-transition: all 0.1s ease-out;
-	-o-transition: all 0.1s ease-out;
-	transition: all 0.1s ease-out;
+.our-team .columns * {
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+	-webkit-transition: all .1s ease-out;
 }
 .team-img ~ p {
 	color: #989898;
 }
-.team-img ~ a, .team-img {
+.team-img ~ a,
+.team-img {
 	-webkit-filter: grayscale(100%);
 	-moz-filter: grayscale(100%);
 	-ms-filter: grayscale(100%);
@@ -343,7 +344,8 @@ vertical-align: middle;
 	color: #3b434c;
 	cursor: pointer;
 }
-.our-team .columns:hover .team-img ~ a, .our-team .columns:hover .team-img {
+.our-team .columns:hover .team-img ~ a,
+.our-team .columns:hover .team-img {
 	-webkit-filter: none;
 	-moz-filter: none;
 	-ms-filter: none;
@@ -351,55 +353,55 @@ vertical-align: middle;
 	filter: none;
 }
 .team-img {
-	-webkit-background-size: cover;
 	background-size: cover;
 	position: relative;
+	-webkit-background-size: cover;
 }
 .our-team .columns:hover .team-img {
-	width: 100%;
+	cursor: pointer;
 	height: 310px;
 	margin-top: -25px;
-	cursor: pointer;
+	width: 100%;
 }
 .our-team .columns:hover .team-img:after {
+	background-color: #f7600e;
+	border-radius: 3px;
+	bottom: 0;
 	content: '';
 	display: block;
 	height: 5px;
 	left: 0;
-	right: 0;
-	bottom: 0;
 	position: absolute;
-	background-color: #f7600e;
-	border-radius: 3px;
+	right: 0;
 }
-input[type="radio"] {
+input[type='radio'] {
 	display: none;
 }
 .label-body {
-	display: inline-block;
-	width: 10px;
-	height: 10px;
-	cursor: pointer;
-	border-radius: 50%;
-	vertical-align: middle;
 	background-color: #c4c6c9;
+	border-radius: 50%;
+	cursor: pointer;
+	display: inline-block;
+	height: 10px;
 	margin-right: 15px;
+	vertical-align: middle;
+	width: 10px;
 }
-input[type="radio"]:checked + .label-body {
+input[type='radio']:checked + .label-body {
 	background-color: #f7600e;
 	height: 15px;
 	width: 15px;
 }
-input[type="radio"] + .label-body,
-input[type="radio"]:checked + .label-body {
-	-webkit-transition: all 0.1s ease-out;
-	-o-transition: all 0.1s ease-out;
-	transition: all 0.1s ease-out;
+input[type='radio'] + .label-body,
+input[type='radio']:checked + .label-body {
+	-o-transition: all .1s ease-out;
+	transition: all .1s ease-out;
+	-webkit-transition: all .1s ease-out;
 }
 .say-hello {
-	background: url("../images/s-h-b.png") center center;
-	height: 900px;
+	background: url('../images/s-h-b.png') center center;
 	background-size: cover;
+	height: 900px;
 }
 .say-hello {
 	color: #fff;
@@ -408,34 +410,34 @@ input[type="radio"]:checked + .label-body {
 	margin-bottom: 20px;
 }
 .say-hello .button-primary {
-	width: 100%;
-	text-align: right;
-	padding-right: 85px;
 	background-color: #f7600e;
+	padding-right: 85px;
+	text-align: right;
+	width: 100%;
 }
 .contacts-title {
-	text-transform: uppercase;
 	color: #fff;
-	text-align: left;
 	font-weight: 600;
+	text-align: left;
+	text-transform: uppercase;
 }
 .contacts-about {
 	color: #fff;
-	text-align: left;
 	font-size: 14px;
 	line-height: 26px;
+	text-align: left;
 }
 .contact-icons {
-	width: 20px;
 	margin-right: 15px;
 	vertical-align: middle;
+	width: 20px;
 }
 .info-icons {
 	padding: 0;
 }
 .info-ico {
-	width: 50px;
 	float: left;
+	width: 50px;
 }
 .soc-icons {
 	float: left;
@@ -443,8 +445,8 @@ input[type="radio"]:checked + .label-body {
 }
 .soc-ico {
 	display: inline-block;
-	width: 45px;
 	margin-right: 10px;
+	width: 45px;
 }
 footer .copyright {
 	display: inline-block;
