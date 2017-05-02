@@ -94,8 +94,6 @@ vertical-align: middle;
 	background-color: transparent;
 	border: 1px solid #65696e;
 	border-radius: 10px;
-	color: #fff;
-	font-size: 16px;
 	font-weight: 600;
 	height: 50px;
 	line-height: 40px;
@@ -176,6 +174,7 @@ vertical-align: middle;
 	background-color: #f7600e;
 	border-color: #f7600e;
 	width: 270px;
+	color: #fff;
 }
 .our-works,
 .our-team,
