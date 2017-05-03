@@ -10,6 +10,9 @@
 html {
 	font-family: 'Open Sans', sans-serif;
 }
+li {
+	list-style: none;
+}
 p {
 	margin: 0;
 }
@@ -25,15 +28,23 @@ a {
 	background-size: cover;
 	height: 800px;
 	padding-top: 50px;
+	color: #fff;
 }
 .main-logo {
 	display: inline-block;
 	font-size: 16px;
 	font-weight: 600;
-	margin: 0 0 0 30px;
+	margin: 0 515px 0 30px;
+}
+.main-menu,
+.main-menu a {
+	display: inline-block;
+}
+.main-menu a {
+	text-transform: uppercase;
+	padding-left: 20px;
 }
 .slider {
-	color: #fff;
 	margin-top: 160px;
 	text-align: center;
 }
@@ -374,7 +385,8 @@ a {
 	display: inline-block;
 	float: right;
 }
-.page-footer a:hover {
+.page-footer a:hover,
+.main-menu a:hover {
 	color: #f7600e;
 }
 .page-footer {
