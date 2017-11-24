@@ -1,4 +1,4 @@
-!Tanatos(http://zmax.by/firsttemplatetanatos/)
+![Tanatos](http://zmax.by/firsttemplatetanatos/)
 =========================
 
 ![Version](https://img.shields.io/badge/version-0.1-green.svg)
