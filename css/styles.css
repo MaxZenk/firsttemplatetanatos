@@ -204,8 +204,8 @@ a {
 
   visibility: hidden;
 
-  width: 360px;
-  height: 360px;
+  width: 350px;
+  height: 350px;
   margin-left: 15px;
 
   -webkit-transition: all .4s ease-out;
@@ -246,6 +246,10 @@ a {
   visibility: visible;
 
   opacity: 1;
+}
+.our-works img:first-child {
+  margin-bottom: 25px;
+  border-radius: 12px;
 }
 .our-works .button-primary {
   width: 210px;
