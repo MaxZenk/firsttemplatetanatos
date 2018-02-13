@@ -8,15 +8,12 @@ html {
 li {
   list-style: none;
 }
-p {
-  margin: 0;
-}
 a {
   text-decoration: none;
 
   color: #fff;
 }
-button,
+.button-a,
 .button-primary,
 .u-full-width:focus {
   outline: none;
@@ -34,7 +31,7 @@ button,
 
   display: inline-block;
 
-  margin-left: 30px;
+  margin: 0 0 0 30px;
 }
 .main-menu ul {
   margin: 0;
@@ -48,6 +45,7 @@ button,
 
   text-transform: uppercase;
 }
+
 .slider {
   margin-top: 160px;
 
@@ -70,12 +68,7 @@ button,
   margin: 5px auto 60px;
 }
 .header-buttons {
-  margin: 0 auto;
-}
-.button-a {
-  display: inline-block;
-
-  border: 1px solid #65696e;
+  text-align: center;
 }
 .button-primary,
 .button-a {
@@ -99,11 +92,11 @@ button,
   border-color: #f7600e;
   background-color: #f7600e;
 }
-.slider .button:nth-child(2n) {
-  margin-right: 0;
-}
-.slider .button {
+.button-a {
   margin-right: 30px;
+}
+.header-buttons .button-a:last-child {
+  margin-right: 0;
 }
 .header-circle {
   width: 35px;
@@ -139,6 +132,9 @@ button,
 .design-subtitle {
   font-size: 14px;
   line-height: 26px;
+
+  max-width: 178px;
+  margin: 0 auto;
 }
 .newsletter {
   text-align: center;
@@ -210,6 +206,10 @@ button,
 
   visibility: hidden;
 
+  width: 360px;
+  height: 360px;
+  margin-left: 15px;
+
   -webkit-transition: all .4s ease-out;
        -o-transition: all .4s ease-out;
           transition: all .4s ease-out;
@@ -262,6 +262,7 @@ button,
 }
 .what-clients-say__text {
   text-align: center;
+
   color: #fff;
 }
 .comment {
@@ -383,14 +384,15 @@ button,
   background-color: #f7600e;
 }
 .say-hello {
+  padding: 100px 0 140px;
+
+  color: #fff;
   background: url('../images/s-h-b.png') center center;
   background-size: cover;
-  color: #fff;
-  padding: 100px 0 140px;
 }
 .say-hello .u-full-width {
-  margin-bottom: 20px;
   width: 100%;
+  margin-bottom: 20px;
 }
 .say-hello .button-primary {
   width: 100%;
@@ -416,13 +418,15 @@ button,
 }
 .additional-info__img,
 .buisness-hours__img {
-  vertical-align: top;
   margin-right: 50px;
+
+  vertical-align: top;
 }
 .contact-title {
   font-weight: 600;
+
   margin-bottom: 20px;
-  
+
   text-transform: uppercase;
 }
 .contact-about {
