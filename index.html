@@ -1,174 +1,205 @@
 <!DOCTYPE html>
-<html lang="en-US" >
+<html lang="en">
 	<head>
 
-		<!-- ––––––––––––––––––––––––– Basic Page Needs ––––––––––––––––––––––––– -->
-		<meta charset="utf-8" />
+		<!-- ––––––––––––––––––––––––– Basic Page Needs –––––––––––––––– -->
+		<meta charset="utf-8">
 		<title>Tanatos</title>
 
-		<!-- ––––––––––––––––––––––– Mobile Specific Metas ––––––––––––––––––––––––––– -->
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- ––––––––––––––––––––––– Mobile Specific Metas ––––––––––––––––– -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- –––––––––––––––––––––– CSS –––––––––––––––––––––––––––– -->
-		<link rel="stylesheet" href="css/normalize.css" />
-		<link rel="stylesheet" href="css/skeleton.css" />
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/styles.css">
 	</head>
 		<!-- ––––––––––––––––––––– Content ––––––––––––––––––––––––––––– -->
 	<body>
 		<!--––––––––––––––––––––––– Header ––––––––––––––––––––––––––– -->
-		<div class="header" id="home">
+		<div class="header">
 			<div class="container">
 				<div class="row">
-					<a href="#"><p class="main-logo">Tanatos<span>Studio</span></p></a>
-					<div class="main-menu">
-						<a href="#home">home</a>
-						<a href="#our-team">about us</a>
-						<a href="#our-services">services</a>
-						<a href="#our-works">our works</a>
-						<a href="#say-hello">contact</a>
+					<div class="col-6">
+						<a href="#"><p class="main-logo">Tanatos<span>Studio</span></p></a>
+					</div>
+					<div class="col-6">
+						<nav class="main-menu">
+							<ul>
+								<li><a href="#home">home</a></li>
+								<li><a href="#our-team">about us</a></li>
+								<li><a href="#our-services">services</a></li>
+								<li><a href="#our-works">our works</a></li>
+								<li><a href="#say-hello">contact</a></li>
+							</ul>
+						</nav>
 					</div>
 				</div>
-				<div class="slider">
-					<div class="row">
-						<p class="title">we design <span>things</span></p>
-						<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br />sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
-					</div>
-					<div class="row">
-						<a class="button-a" href="#say-hello" style="margin-right: 25px;">hire us</a>
-						<a class="button-a" href="#our-works">our works</a>
-					</div>
-					<div class="row">
-							<div class="circle">
-								<a href="#"></a>
-							</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="slider">
+							<h1 class="title">we design <span>things</span></h1>
+							<p class="subtitle">Lorem ipsum dolor sit amet, consectetur 
+								adipisicing elit,<br> sed do eiusmod tempor incididunt ut labore 
+								et dolore magna aliqua</p>
+						</div>
 					</div>
 				</div>
-		 </div>
+				<div class="row">
+					<div class="col-12">
+						<div class="header-buttons">
+							<button class="button-a" href="#say-hello">hire us</button>
+							<button class="button-a" href="#our-works">our works</button>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="header-circle">
+							<a href="#"></a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-
+		
 		<!-- –––––––––––––––––––––– Our Services –––––––––––––––––––––––––––– -->
-		<div class="our-services" id="our-services">
+		<section class="our-services">
 			<div class="container">
 				<div class="row">
-					<div class="three columns">
+					<div class="col-md-3">
 						<div class="circle">
-							<img src="images/print-design.png" alt="" class="design-img" />
+							<img src="images/print-design.png" alt="" class="design-img">
 						</div>
 						<p class="design-title">print design</p>
-						<p class="design-subtitle">Excepteur sint occaecat<br />cupidatat non proident,<br />sunt in culpa qui officia</p>
+						<p class="design-subtitle">Excepteur sint occaecat cupidatat non 
+							proident, sunt in culpa qui officia</p>
 					</div>
-					<div class="three columns">
+					<div class="col-md-3">
 						<div class="circle">
-							<img src="images/web-design.png" alt="" class="design-img" />
+							<img src="images/web-design.png" alt="" class="design-img">
 						</div>
 						<p class="design-title">web design</p>
-						<p class="design-subtitle">Incididunt ut labore et<br />dolore magna aliqua. Ut<br />enim ad minim veniam</p>
+						<p class="design-subtitle">Incididunt ut labore et dolore magna 
+							aliqua. Ut enim ad minim veniam</p>
 					</div>
-					<div class="three columns">
+					<div class="col-md-3">
 						<div class="circle">
-							<img src="images/app-design.png" alt="" class="design-img" />
+							<img src="images/app-design.png" alt="" class="design-img">
 						</div>
 						<p class="design-title">app design</p>
-						<p class="design-subtitle">Quis nostrud exercitation<br />ullamco laboris nisi ut<br />aliquip ex ea commodo</p>
+						<p class="design-subtitle">Quis nostrud exercitation ullamco 
+							laboris nisi ut aliquip ex ea commodo</p>
 					</div>
-					<div class="three columns">
+					<div class="col-md-3">
 						<div class="circle">
-							<img src="images/logo-design.png" alt="" class="design-img" />
+							<img src="images/logo-design.png" alt="" class="design-img">
 						</div>
 						<p class="design-title">logo design</p>
-						<p class="design-subtitle">Duis aute irure dolor in<br />reprehenderit in voluptate<br />velit esse cillum dolore eu</p>
+						<p class="design-subtitle">Duis aute irure dolor in reprehenderit in 
+							voluptate velit esse cillum dolore eu</p>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- –––––––––––––––––––––– Newsletter –––––––––––––––––––––––––––– -->
-		<div class="newsletter" id="newsletter">
+		<section class="newsletter" id="newsletter">
 			<div class="container">
 				<div class="row">
-					<form>
-						<input type="email" class="u-full-width" placeholder="Enter Your email adress for newsletter *" /><!--
-					--><input type="submit" class="button-primary" value="subscribe" />
-					</form>
+					<div class="col">
+						<form>
+							<input type="email" class="u-full-width" placeholder="Enter Your 
+							email adress for newsletter *">
+							<input type="submit" class="button-primary" value="subscribe">
+						</form>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- –––––––––––––––––––––– Our Works –––––––––––––––––––––––––––– -->
-		<div class="our-works" id="our-works">
+		<section class="our-works" id="our-works">
 			<div class="container">
 				<div class="row">
 						<p class="title">our <span>works</span></p>
-						<p class="subtitle">Ut enim ad minim veniam, quis nostrud exercitation ullamco<br />laboris nisi ut aliquip ex ea commodo consequat</p>
+						<p class="subtitle">Ut enim ad minim veniam, quis nostrud 
+							exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+							consequat</p>
 				</div>
 				<div class="row" style="margin-bottom: 30px;">
 					<div class="four columns magic">
-							<img src="images/P1.png" alt="" />
+							<img src="images/P1.png" alt="">
 							<div class="overlay">
 								<p class="header-overlay">abazoo website</p>
-								<p class="about-overlay">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-								<input type="button" class="button-primary" value="show project" />
+								<p class="about-overlay">Quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea</p>
+								<input type="button" class="button-primary" value="show project">
 							</div>
 					</div>
 					<div class="four columns magic">
-						<img src="images/P2.png" alt="" />
+						<img src="images/P2.png" alt="">
 						<div class="overlay">
 							<p class="header-overlay">abazoo website</p>
-							<p class="about-overlay">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-							<input type="button" class="button-primary" value="show project" />
+							<p class="about-overlay">Quis nostrud exercitation ullamco laboris 
+								nisi ut aliquip ex ea</p>
+							<input type="button" class="button-primary" value="show project">
 						</div>
 					</div>
 					<div class="four columns magic">
-						<img src="images/P3.png" alt="" />
+						<img src="images/P3.png" alt="">
 						<div class="overlay">
 							<p class="header-overlay">abazoo website</p>
-							<p class="about-overlay">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-							<input type="button" class="button-primary" value="show project" />
+							<p class="about-overlay">Quis nostrud exercitation ullamco laboris 
+								nisi ut aliquip ex ea</p>
+							<input type="button" class="button-primary" value="show project">
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="four columns magic">
-						<img src="images/P4.png" alt="" />
+						<img src="images/P4.png" alt="">
 						<div class="overlay">
 							<p class="header-overlay">abazoo website</p>
-							<p class="about-overlay">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-							<input type="button" class="button-primary" value="show project" />
+							<p class="about-overlay">Quis nostrud exercitation ullamco laboris 
+								nisi ut aliquip ex ea</p>
+							<input type="button" class="button-primary" value="show project">
 						</div>
 					</div>
 					<div class="four columns magic">
-						<img src="images/P5.png" alt="" />
+						<img src="images/P5.png" alt="">
 						<div class="overlay">
 							<p class="header-overlay">abazoo website</p>
-							<p class="about-overlay">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-							<input type="button" class="button-primary" value="show project" />
+							<p class="about-overlay">Quis nostrud exercitation ullamco laboris 
+								nisi ut aliquip ex ea</p>
+							<input type="button" class="button-primary" value="show project">
 						</div>
 					</div>
 					<div class="four columns magic">
-						<img src="images/P6.png" alt="" />
+						<img src="images/P6.png" alt="">
 						<div class="overlay">
 							<p class="header-overlay">abazoo website</p>
-							<p class="about-overlay">Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-							<input type="button" class="button-primary" value="show project" />
+							<p class="about-overlay">Quis nostrud exercitation ullamco laboris 
+								nisi ut aliquip ex ea</p>
+							<input type="button" class="button-primary" value="show project">
 						</div>
 					</div>
 				</div>
 				<div class="row">
-					<input type="button" class="button-primary" value="show more" />
+					<input type="button" class="button-primary" value="show more">
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- –––––––––––––––––––––– What Clients Say –––––––––––––––––––––––––––– -->
-		<div class="what-clients-say" id="what-clients-say">
+		<section class="what-clients-say" id="what-clients-say">
 			<div class="container">
 				<div class="row">
 					<div class="one column"><div class="arrow arrow-left"></div></div>
 					<div class="ten columns">
-						<img src="images/w-c-s-b-avatar.png" alt="" class="avatar" />
-						<p class="comment">These guys are incredible! I get my project in 10 days and it was awesome!<br />
-							Very good service! Highly recommended!</p>
+						<img src="images/w-c-s-b-avatar.png" alt="" class="avatar">
+						<p class="comment">These guys are incredible! I get my project in 10 
+							days and it was awesome!<br>Very good service! Highly recommended!</p>
 						<p class="author">John Smith</p>
 					</div>
 					<div class="one column" style="margin-left: 0;">
@@ -176,107 +207,108 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- –––––––––––––––––––––– Our Team –––––––––––––––––––––––––––– -->
-		<div class="our-team" id="our-team">
+		<section class="our-team" id="our-team">
 			<div class="container">
 				<div class="row">
 					<p class="title">our <span>team</span></p>
-					<p class="subtitle">Sed ut perspiciatis unde omnis iste natus error sit<br />voluptatem accusantium doloremque laudantium totam rem</p>
+					<p class="subtitle">Sed ut perspiciatis unde omnis iste natus error 
+						sit voluptatem accusantium doloremque laudantium totam rem</p>
 				</div>
 				<div class="row">
 					<div class="three columns col01">
 						<div class="team-img" style="background-image: url(images/catherina-gail.png);"></div>
 						<p class="name-team">catherina gail</p>
-						<a href=""><img src="images/f-ico.svg" alt="" class="soc-icon-team" /></a>
-						<a href=""><img src="images/t-ico.svg" alt="" class="soc-icon-team ico-t" /></a>
-						<a href=""><img src="images/g-ico.svg" alt="" class="soc-icon-team" /></a>
+						<a href=""><img src="images/f-ico.svg" alt="" class="soc-icon-team"></a>
+						<a href=""><img src="images/t-ico.svg" alt="" class="soc-icon-team ico-t"></a>
+						<a href=""><img src="images/g-ico.svg" alt="" class="soc-icon-team"></a>
 						<p class="about-team">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
 					</div>
 					<div class="three columns col02">
 						<div class="team-img" style="background-image: url(images/harvey-rube.png);"></div>
 						<p class="name-team">harvey rube</p>
-						<a href=""><img src="images/f-ico.svg" alt="" class="soc-icon-team" /></a>
-						<a href=""><img src="images/t-ico.svg" alt="" class="soc-icon-team ico-t" /></a>
-						<a href=""><img src="images/g-ico.svg" alt="" class="soc-icon-team" /></a>
+						<a href=""><img src="images/f-ico.svg" alt="" class="soc-icon-team"></a>
+						<a href=""><img src="images/t-ico.svg" alt="" class="soc-icon-team ico-t"></a>
+						<a href=""><img src="images/g-ico.svg" alt="" class="soc-icon-team"></a>
 						<p class="about-team">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut</p>
 					</div>
 					<div class="three columns">
 						<div class="team-img" style="background-image: url(images/janet-pris.png);"></div>
 						<p class="name-team">janet pris</p>
-						<a href=""><img src="images/f-ico.svg" alt="" class="soc-icon-team" /></a>
-						<a href=""><img src="images/t-ico.svg" alt="" class="soc-icon-team ico-t" /></a>
-						<a href=""><img src="images/g-ico.svg" alt="" class="soc-icon-team" /></a>
+						<a href=""><img src="images/f-ico.svg" alt="" class="soc-icon-team"></a>
+						<a href=""><img src="images/t-ico.svg" alt="" class="soc-icon-team ico-t"></a>
+						<a href=""><img src="images/g-ico.svg" alt="" class="soc-icon-team"></a>
 						<p class="about-team">Commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
 					</div>
 					<div class="three columns">
 						<div class="team-img" style="background-image: url(images/kevin-ward.png);"></div>
 						<p class="name-team">kevin ward</p>
-						<a href=""><img src="images/f-ico.svg" alt="" class="soc-icon-team" /></a>
-						<a href=""><img src="images/t-ico.svg" alt="" class="soc-icon-team ico-t" /></a>
-						<a href=""><img src="images/g-ico.svg" alt="" class="soc-icon-team" /></a>
+						<a href=""><img src="images/f-ico.svg" alt="" class="soc-icon-team"></a>
+						<a href=""><img src="images/t-ico.svg" alt="" class="soc-icon-team ico-t"></a>
+						<a href=""><img src="images/g-ico.svg" alt="" class="soc-icon-team"></a>
 						<p class="about-team">Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat</p>
 					</div>
-					<!-- ROW TUT -->
+					<!-- ROW HERE -->
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- –––––––––––––––––––––– Say Hello –––––––––––––––––––––––––––– -->
-		<div class="say-hello" id="say-hello">
+		<section class="say-hello" id="say-hello">
 			<div class="container">
 				<div class="row">
 					<p class="title">say <span>hello</span></p>
-					<p class="subtitle">Excepteur sint occaecat cupidatat non proident, sunt in culpa<br />qui officia deserunt mollit anim id est laborum</p>
+					<p class="subtitle">Excepteur sint occaecat cupidatat non proident, 
+						sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 				</div>
 				<div class="row">
 					<div class="six columns">
 						<div class="row info-icons">
 							<div class="two columns">
-								<img src="images/info-ico.svg" alt="" class="info-ico" />
+								<img src="images/info-ico.svg" alt="" class="info-ico">
 							</div>
 							<div class="seven columns">
 								<p class="contacts-title">additional info</p>
-								<br />
 								<p class="contacts-about">Borough High St 20024 London SE1 1BL</p>
 								<p class="contacts-about">London, United Kindom</p>
-								<br />
-								<p class="contacts-about"><img src="images/message-ico.svg" alt="" class="contact-icons">contact@designstudio.com</p>
-								<p class="contacts-about"><img src="images/phone-ico.svg" alt="" class="contact-icons">00 123 456 789</p>
+								<p class="contacts-about"><img src="images/message-ico.svg" 
+									alt="" class="contact-icons">contact@designstudio.com</p>
+								<p class="contacts-about"><img src="images/phone-ico.svg" 
+									alt="" class="contact-icons">00 123 456 789</p>
 							</div>
 						</div>
 						<div class="row info-icons">
 							<div class="two columns">
-								<img src="images/Clock-ico.svg" alt="" class="info-ico" style="margin: 80px 0 115px;" />
+								<img src="images/Clock-ico.svg" alt="" class="info-ico" style="margin: 80px 0 115px;">
 							</div>
 							<div class="seven columns" style="margin-top: 60px;">
 								<p class="contacts-title">business hours</p>
-								<br />
 								<p class="contacts-about">Mon - Fri: 8am to 6pm</p>
 								<p class="contacts-about">Sat: 10am to 4pm</p>
 							</div>
 						</div>
 						<div class="row soc-icons">
-							<a href="#"><img src="images/f-ico.svg" alt="" class="soc-ico" /></a>
-							<a href="#"><img src="images/t-ico.svg" alt="" class="soc-ico" /></a>
-							<a href="#"><img src="images/g-ico.svg" alt="" class="soc-ico" /></a>
-							<a href="#"><img src="images/ball-ico.svg" alt="" class="soc-ico" /></a>
-							<a href="#"><img src="images/behance-ico.svg" alt="" class="soc-ico" style="margin-right: 0" /></a>
+							<a href="#"><img src="images/f-ico.svg" alt="" class="soc-ico"></a>
+							<a href="#"><img src="images/t-ico.svg" alt="" class="soc-ico"></a>
+							<a href="#"><img src="images/g-ico.svg" alt="" class="soc-ico"></a>
+							<a href="#"><img src="images/ball-ico.svg" alt="" class="soc-ico"></a>
+							<a href="#"><img src="images/behance-ico.svg" alt="" class="soc-ico" style="margin-right: 0"></a>
 						</div>
 					</div>
 					<div class="six columns">
 						<form>
-							<input class="u-full-width" type="text" placeholder="Your Name *" id="exampleNameInput" required />
-							<input class="u-full-width" type="email" placeholder="test@mail.com *" id="exampleEmailInput" required />
-							<input class="u-full-width" type="text" placeholder="Subject *" id="exampleSubjectInput" required />
+							<input class="u-full-width" type="text" placeholder="Your Name *" id="exampleNameInput" required>
+							<input class="u-full-width" type="email" placeholder="test@mail.com *" id="exampleEmailInput" required>
+							<input class="u-full-width" type="text" placeholder="Subject *" id="exampleSubjectInput" required>
 							<textarea class="u-full-width" placeholder="Your Message *" id="exampleMessage" rows="10" cols="65" required style="line-height: 20px;"></textarea>
-							<input class="button-primary" type="submit" value="send" />
+							<input class="button-primary" type="submit" value="send">
 						</form>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- –––––––––––––––––––––– Footer –––––––––––––––––––––––––––– -->
 		<footer class="page-footer">
