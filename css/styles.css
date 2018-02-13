@@ -394,6 +394,10 @@ a {
   width: 100%;
   margin-bottom: 20px;
 }
+.say-hello textarea {
+  min-width: 540px;
+  min-height: 246px;
+}
 .say-hello .button-primary {
   width: 100%;
   padding-right: 85px;
