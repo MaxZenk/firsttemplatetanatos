@@ -274,6 +274,9 @@ a {
   background: url(../images/w-c-s-b.png) center center;
   background-size: cover;
 }
+.avatar {
+  border-radius: 50%;
+}
 .what-clients-say__text {
   text-align: center;
 
