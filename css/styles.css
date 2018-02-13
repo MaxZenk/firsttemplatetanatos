@@ -16,7 +16,9 @@ a {
 
   color: #fff;
 }
-button:focus {
+button,
+.button-primary,
+.u-full-width:focus {
   outline: none;
 }
 .header {
@@ -381,17 +383,14 @@ button:focus {
   background-color: #f7600e;
 }
 .say-hello {
-  
-
   background: url('../images/s-h-b.png') center center;
   background-size: cover;
-}
-.say-hello {
   color: #fff;
   padding: 100px 0 140px;
 }
 .say-hello .u-full-width {
   margin-bottom: 20px;
+  width: 100%;
 }
 .say-hello .button-primary {
   width: 100%;
@@ -399,42 +398,55 @@ button:focus {
 
   text-align: right;
 }
-.contacts-title {
-  font-weight: 600;
-
+.additional-info {
+  margin-bottom: 75px;
+}
+.buisness-hours {
+  margin-bottom: 95px;
+}
+.additional-info,
+.buisness-hours {
   text-align: left;
+}
+.additional-info__img,
+.additional-info__text,
+.buisness-hours__img,
+.buisness-hours__text {
+  display: inline-block;
+}
+.additional-info__img,
+.buisness-hours__img {
+  vertical-align: top;
+  margin-right: 50px;
+}
+.contact-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+  
   text-transform: uppercase;
 }
-.contacts-about {
+.contact-about {
   font-size: 14px;
   line-height: 26px;
-
-  text-align: left;
 }
-.contact-icons {
+.contact-icon {
   width: 20px;
   margin-right: 15px;
 
   vertical-align: middle;
 }
-.info-icons {
-  padding: 0;
+.m-and-p {
+  margin-top: 15px;
 }
 .info-ico {
-  float: left;
-
-  width: 50px;
+  width: 60px;
+}
+.soc-ico {
+  width: 45px;
+  margin-right: 10px;
 }
 .soc-icons {
   float: left;
-
-  padding: 0;
-}
-.soc-ico {
-  display: inline-block;
-
-  width: 45px;
-  margin-right: 10px;
 }
 .page-footer .copyright {
   display: inline-block;

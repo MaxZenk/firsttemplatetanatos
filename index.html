@@ -274,31 +274,33 @@
 				</div>
 				<div class="row">
 					<div class="col-6">
-						<div class="row info-icons">
-							<div class="col-2">
-								<img src="images/info-ico.svg" alt="info-ico" class="info-ico">
+						<div class="additional-info">
+							<div class="additional-info__img">
+								<img class="info-ico" src="images/info-ico.svg" alt="info-ico">
 							</div>
-							<div class="col-7">
-								<p class="contacts-title">additional info</p>
-								<p class="contacts-about">Borough High St 20024 London SE1 1BL</p>
-								<p class="contacts-about">London, United Kindom</p>
-								<p class="contacts-about"><img class="contact-icons" src="images/message-ico.svg" 
-									alt="message-ico">contact@designstudio.com</p>
-								<p class="contacts-about"><img class="contact-icons" src="images/phone-ico.svg" 
-									alt="phone-ico">00 123 456 789</p>
+							<div class="additional-info__text">
+								<p class="contact-title">additional info</p>
+								<p class="contact-about">Borough High St 20024 London SE1 1BL</p>
+								<p class="contact-about">London, United Kindom</p>
+								<div class="m-and-p">
+									<p class="contact-about"><img class="contact-icon" src="images/message-ico.svg" 
+										alt="message-ico">contact@designstudio.com</p>
+									<p class="contact-about"><img class="contact-icon" src="images/phone-ico.svg" 
+										alt="phone-ico">00 123 456 789</p>
+								</div>
+							</div>
+						</div>						
+						<div class="buisness-hours">
+							<div class="buisness-hours__img">
+								<img class="info-ico" src="images/Clock-ico.svg" alt="Clock-ico">
+							</div>
+							<div class="buisness-hours__text">
+								<p class="contact-title">business hours</p>
+								<p class="contact-about">Mon - Fri: 8am to 6pm</p>
+								<p class="contact-about">Sat: 10am to 4pm</p>
 							</div>
 						</div>
-						<div class="row info-icons">
-							<div class="col-2">
-								<img class="info-ico" src="images/Clock-ico.svg" alt="">
-							</div>
-							<div class="col-7">
-								<p class="contacts-title">business hours</p>
-								<p class="contacts-about">Mon - Fri: 8am to 6pm</p>
-								<p class="contacts-about">Sat: 10am to 4pm</p>
-							</div>
-						</div>
-						<div class="row soc-icons">
+						<div class="soc-icons">
 							<a href="#"><img class="soc-ico" src="images/f-ico.svg" alt="f-ico"></a>
 							<a href="#"><img class="soc-ico" src="images/t-ico.svg" alt="t-ico"></a>
 							<a href="#"><img class="soc-ico" src="images/g-ico.svg" alt="g-ico"></a>
@@ -308,10 +310,10 @@
 					</div>
 					<div class="col-6">
 						<form>
-							<input class="u-full-width" type="text" placeholder="Your Name *" id="exampleNameInput" required>
-							<input class="u-full-width" type="email" placeholder="test@mail.com *" id="exampleEmailInput" required>
-							<input class="u-full-width" type="text" placeholder="Subject *" id="exampleSubjectInput" required>
-							<textarea class="u-full-width" placeholder="Your Message *" id="exampleMessage" rows="10" cols="65" required style="line-height: 20px;"></textarea>
+							<input class="u-full-width" type="text" placeholder="Your Name *" required>
+							<input class="u-full-width" type="email" placeholder="test@mail.com *" required>
+							<input class="u-full-width" type="text" placeholder="Subject *" required>
+							<textarea class="u-full-width" placeholder="Your Message *" rows="5" cols="65" required></textarea>
 							<input class="button-primary" type="submit" value="send">
 						</form>
 					</div>
